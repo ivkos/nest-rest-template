@@ -1,14 +1,35 @@
 # nest-rest-template
 Jump-start your Nest.js REST app with this opinionated template
 
-## Installation
 
+## Requirements
+* [Node.js 12](https://nodejs.org/en/download/) or a newer version
+
+
+## Configuration
+The application reads its configuration, from highest to lowest priority, from:
+- environment variables
+- the `.env` file
+- the `.env.default` file
+
+Copy the `.env.default` file, and make changes in your `.env` file:
+```bash
+cp .env.default .env
+nano .env
+```
+
+Please note:
+- **Do not commit the `.env` file to source control.**
+- **Do not make changes to the `.env.default` file.**
+
+
+## Installation
 ```bash
 npm install
 ```
 
-## Running the app
 
+## Running the app
 ```bash
 # development
 npm run start
@@ -20,8 +41,8 @@ npm run start:dev
 npm run start:prod
 ```
 
-## Test
 
+## Test
 ```bash
 # unit tests
 npm run test
@@ -32,6 +53,7 @@ npm run test:e2e
 # test coverage
 npm run test:cov
 ```
+
 
 ## Database
 ### Configuration
