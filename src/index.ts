@@ -1,3 +1,4 @@
+import "source-map-support/register"
 import { NestFactory } from "@nestjs/core"
 import { ApplicationModule } from "./ApplicationModule"
 import { ConfigService } from "@nestjs/config"
