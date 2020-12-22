@@ -3,7 +3,7 @@ Jump-start your Nest.js REST app with this opinionated template
 
 
 ## Requirements
-* [Node.js 12](https://nodejs.org/en/download/) or a newer version
+* [Node.js 14](https://nodejs.org/en/download/) or a newer version
 
 
 ## Configuration
